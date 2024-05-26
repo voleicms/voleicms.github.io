@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esportes on VOLEI CMS</title>
+    <link>http://localhost:1313/tags/esportes/</link>
+    <description>Recent content in Esportes on VOLEI CMS</description>
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <copyright>Open-source &lt;a class=&#39;text-muted text-decoration-none&#39; href=&#39;https://github.com/hugo-bootstrap-theme/blob/main/LICENSE&#39;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <atom:link href="http://localhost:1313/tags/esportes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time de Vôlei do CMS 🏐</title>
+      <link>http://localhost:1313/page/hugo-front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/hugo-front-matter/</guid>
+      <description>Este post apresenta o time de vôlei do Colégio Militar de Salvador, com detalhes sobre jogadores, estatísticas e próximos jogos.</description>
+    </item>
+  </channel>
+</rss>

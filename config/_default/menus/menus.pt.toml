@@ -1,0 +1,23 @@
+[[main]]
+name = "Início"
+url = ""
+weight = 10
+
+[[main]]
+name = "Time"
+url = "atletas"
+weight = 20
+title = "Equipe do CMS"
+
+[[main]]
+name = "Conquistas"
+url = "timeline"
+weight = 30
+title = "Conquista"
+
+[[social]]
+  name = "Instagram"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-instagram'><use xlink:href='/images/feather/feather-sprite.svg#instagram'/></svg>"
+  url = "https://www.instagram.com/voleimasculinocms"
+  weight = 10
+  title = "Veja o fotos do projeto no Instagram"

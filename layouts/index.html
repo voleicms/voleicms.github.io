@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+<section class="section bd-masthead">
+  <div class="container-xxl">
+    <div class="col-md-8 mx-auto text-center my-5">
+      <img class="d-block mx-auto mb-3" src="{{ `images/logo.svg` | relURL }}" width="150" height="150" alt="Bootstrap">
+      <h1 class="display-4 fw-semibold mb-3">{{ .Site.Title }}</h1>
+      <p class="lead mb-4">{{ .Site.Params.Description }}</p>
+      <div class="container">
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://instagram.com/voleimasculinocms" role="button" target="_blank">Siga-nos no Instagram</a>
+        <p class="text-muted mb-0">Apoie o volei na Bahia</p>
+      </div>
+      </div>
+  </div>
+</section>
+
+<!-- Seção do Time com Carrossel -->
+<div class="section team-section my-5">
+  <div class="fluid-container">
+      <h2 class="text-center mb-4">Conheça Nosso Time</h2>
+
+<!-- Carrossel usando Bootstrap 5 -->
+<div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+      <!-- Supondo que você tenha os dados dos times em alguma variável ou arquivo -->
+      {{ range $index, $element := .Site.Data.times }}
+      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+          <img src="{{ $element.image }}" class="d-block w-50 mx-auto" alt="Foto do time {{ $element.name }}"
+          style="max-height: 300px; object-fit: contain;">
+          <div class="carousel-caption d-none d-md-block"
+          style="background-color: rgba(0, 0, 0, 0.5); padding: 10px;">
+              <h5>{{ $element.name }}</h5>
+              <p>{{ $element.description }}</p>
+          </div>
+      </div>
+      {{ end }}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+
+
+
+
+<div class="section container my-3">
+  <h2 class="section-title text-center my-5">Patrocinadores</h2>
+  <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center align-items-stretch">
+      {{ range .Site.Data.patrocinadores }}
+          <div class="col-12 col-md-4">
+              <div class="card h-100">
+                  <img src="{{ .image }}" class="card-img-top" alt="{{ .name }}" style="width: 100%; height: auto; max-height: 150px; object-fit: scale-down;">
+              </div>
+          </div>
+      {{ end }}
+  </div>
+</div>
+
+
+<div class="section container my-3">
+  <h2 class="section-title text-center my-5">Amigos do Volei</h2>
+  <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center align-items-stretch">
+      {{ range .Site.Data.amigos }}
+          <div class="col-12 col-md-4">
+              <div class="card h-100">
+                  <img src="{{ .image }}" class="card-img-top" alt="{{ .name }}" style="width: 100%; height: auto; max-height: 150px; object-fit: scale-down;">
+              </div>
+          </div>
+      {{ end }}
+  </div>
+</div>
+
+
+<div class="section container my-3">
+  <h2 class="section-title text-center my-5">Parcerias</h2>
+  <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center align-items-stretch">
+      {{ range .Site.Data.parceiros }}
+          <div class="col-12 col-md-4">
+              <div class="card h-100">
+                  <img src="{{ .image }}" class="card-img-top" alt="{{ .name }}" style="width: 100%; height: auto; max-height: 150px; object-fit: scale-down;">
+              </div>
+          </div>
+      {{ end }}
+  </div>
+</div>
+
+
+{{ end }}

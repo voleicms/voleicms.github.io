@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section bd-masthead">
+  <div class="container-xxl">
+    <div class="col-md-8 mx-auto text-center my-5">
+      <h1 class="display-4 fw-semibold mb-3">Sobre Nós</h1>
+      <p class="lead mb-4">Conheça a história do nosso clube através da nossa linha do tempo.</p>
+    </div>
+  </div>
+</section>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4" style="font-size: 2.5rem; color: #333;">Conquistas do Time</h2>
+  <div class="row">
+    {{ range .Site.Data.timeline }}
+    <div class="col-md-4 mb-4">
+      <div class="card" style="transition: transform .2s; cursor: pointer;">
+        <img src="{{ .image }}" class="card-img-top" alt="Conquista" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">{{ .title }}</h5>
+          <p class="card-text">
+            <strong>Ano:</strong> {{ .year }}<br>
+            <strong>Competição:</strong> {{ .competition }}<br>
+            <strong>Colocação:</strong> {{ .placement }}<br>
+            <strong>Categoria:</strong> {{ .category }}<br>
+            <strong>Descrição:</strong> {{ .description }}
+          </p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+</div>
+{{ end }}

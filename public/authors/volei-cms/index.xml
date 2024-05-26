@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Volei CMS on VOLEI CMS</title>
+    <link>http://localhost:1313/authors/volei-cms/</link>
+    <description>Recent content in Volei CMS on VOLEI CMS</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <copyright>Domore</copyright>
+    <atom:link href="http://localhost:1313/authors/volei-cms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documentação do Time de Vôlei do CMS</title>
+      <link>http://localhost:1313/page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/</guid>
+      <description>Bem-vindos à Documentação do Time de Vôlei do CMS Esta seção do site é dedicada a fornecer informações detalhadas e recursos úteis sobre o nosso time e como participar ou apoiar.&#xA;Quem Somos O Time de Vôlei do CMS consiste em alunos talentosos de diversas áreas acadêmicas que se unem para competir e promover o espírito esportivo dentro e fora do campus.&#xA;Participação Como se Juntar Para se juntar ao time de vôlei do CMS, você deve:</description>
+    </item>
+  </channel>
+</rss>

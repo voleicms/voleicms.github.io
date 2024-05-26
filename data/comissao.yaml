@@ -1,0 +1,7 @@
+- name: "Marcelo Ticks"
+  position: "Tecnico"
+  image: "/images/jogadores/tecnico.png"
+  height: "1,85 m"
+  birthdate: "10/01/1990"
+  location: "Salvador - BA"
+  number: "10"
