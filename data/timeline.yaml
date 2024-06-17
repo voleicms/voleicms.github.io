@@ -90,10 +90,17 @@
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Campeão Baiano"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2021_campeaobaiano_sub20_1.jpg"
   year: "2021"
   placement: "1º Lugar"
   category: "SUB 20"
+  description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+
+- title: "Vice Campeão Baiano"
+  image: "/images/conquistas/2021_baiano_sub18_2.jpg"
+  year: "2021"
+  placement: "2º Lugar"
+  category: "SUB 18"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Vice Campeão da Copa Salvador"
@@ -102,7 +109,6 @@
   placement: "2º Lugar"
   category: "SUB 15"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
-
 
 - title: "Tetra Campeão Baiano"
   image: "/images/conquistas/2019_baiano_sub15_1.jpg"
@@ -117,7 +123,6 @@
   placement: "2º Lugar"
   category: "SUB 17"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
-
 
 - title: "Vice Campeão FEEPS"
   image: "/images/conquistas/2019_feeps_juvenil_2.jpg"
@@ -176,7 +181,7 @@
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Vice Campeão FEEPS"
-  image: "/images/conquistas/2018_feeps_infanto_2.jpg"
+  image: "/images/conquistas/2018_baiano_sub15_1.jpg"
   year: "2018"
   placement: "2º Lugar"
   category: "Infanto"
@@ -204,7 +209,7 @@
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Campeão da Copa CAV"
-  image: "/images/conquistas/2018_cav_mirin1.jpg"
+  image: "/images/conquistas/2018_cav_mirin_1.jpg"
   year: "2018"
   placement: "1º Lugar"
   category: "Mirim"
