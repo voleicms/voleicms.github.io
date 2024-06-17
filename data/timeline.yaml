@@ -96,36 +96,59 @@
   category: "SUB 20"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
+- title: "Vice Campeão da Copa Salvador"
+  image: "/images/conquistas/2019_copasalvador_sub15_2.jpg"
+  year: "2019"
+  placement: "2º Lugar"
+  category: "SUB 15"
+  description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+
+
 - title: "Tetra Campeão Baiano"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2019_baiano_sub15_1.jpg"
   year: "2019"
   placement: "1º Lugar"
   category: "SUB 15"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
-- title: "Tri Campeão FEEPS"
+- title: "Vice Campeão Baiano"
   image: "/images/conquistas/placeholder.webp"
+  year: "2019"
+  placement: "2º Lugar"
+  category: "SUB 17"
+  description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+
+
+- title: "Vice Campeão FEEPS"
+  image: "/images/conquistas/2019_feeps_juvenil_2.jpg"
+  year: "2019"
+  placement: "2º Lugar"
+  category: "Juvenil"
+  description: "Nossa equipe conquistou o segundo lugar no campeonato."
+
+- title: "Tri Campeão FEEPS"
+  image: "/images/conquistas/2019 _feeps_infanto_1.jpg"
   year: "2019"
   placement: "1º Lugar"
   category: "Infanto"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Campeão da Seletiva Estadual Jogos da Juventude"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2019_jj_estadual_1.jpg"
   year: "2019"
   placement: "1º Lugar"
   category: "15 a 17 anos"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Bi Campeão da Seletiva Estadual JEBS"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2019_jebs_estadual_1.jpg"
   year: "2019"
   placement: "1º Lugar"
   category: "12 a 14 anos"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Campeão dos Jogos da Amizade"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2019_ja_1.jpg"
   year: "2019"
   placement: "1º Lugar"
   category: "-"
@@ -144,7 +167,7 @@
   placement: "1º Lugar"
   category: "SUB 17"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
-  
+
 - title: "Tri Campeão FEEPS"
   image: "/images/conquistas/2018_feeps_juvenil_1.jpg"
   year: "2018"
