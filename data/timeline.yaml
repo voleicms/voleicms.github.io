@@ -19,6 +19,13 @@
   category: "12 a 14 anos"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
+- title: "3º Lugar JEBS Nacional - Série Cobre"
+  image: "/images/conquistas/2023_jebs_3.jpg"
+  year: "2023"
+  placement: "3º Lugar"
+  category: "12 a 14 anos"
+  description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+
 - title: "Campeão da Copa Baiana Escolar"
   image: "/images/conquistas/2023_copabaiana_sub18_1.jpg"
   year: "2023"
@@ -32,16 +39,23 @@
   placement: "1º Lugar"
   category: "SUB 16"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+ 
+- title: "Vice Campeão da Copa Baiana Escolar"
+  image: "/images/conquistas/2023_copabaiana_sub16_2.jpg"
+  year: "2023"
+  placement: "2º Lugar"
+  category: "SUB 16"
+  description: "Nossa equipe B conquistou o primeiro lugar no campeonato."
 
 - title: "Penta Campeão FEEPS"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2023_feeps_juvenil_1.jpg"
   year: "2023"
   placement: "1º Lugar"
   category: "Juvenil"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
 
 - title: "Tetra Campeão FEEPS"
-  image: "/images/conquistas/placeholder.webp"
+  image: "/images/conquistas/2023_feeps_infanto_1.jpg"
   year: "2023"
   placement: "1º Lugar"
   category: "Infanto"
@@ -53,6 +67,13 @@
   placement: "1º Lugar"
   category: "-"
   description: "Nossa equipe conquistou o primeiro lugar no campeonato."
+
+- title: "Vice Campeão da Copa Salvador"
+  image: "/images/conquistas/2023_copasalvador_sub20_2.jpg"
+  year: "2023"
+  placement: "2º Lugar"
+  category: "SUB 20"
+  description: "Nossa equipe conquistou o segundo lugar no campeonato."
 
 - title: "Campeão da Copa Salvador"
   image: "/images/conquistas/2023_copasalvador_sub20_2.jpg"
